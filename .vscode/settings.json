@@ -1,7 +1,5 @@
-# Задачи по реакт с сайта code.mu
-
-# Добавить в конфиг vscode
-"editor.formatOnPaste": false,
+{
+    "editor.formatOnPaste": false,
 "editor.formatOnSave": true,
 "[javascript]": {
     "editor.formatOnSave": true,
@@ -13,4 +11,5 @@
     "editor.formatOnSave": false,
 },
 "eslint.autoFixOnSave": true,
-"eslint.alwaysShowStatus": true,
+"eslint.alwaysShowStatus": true
+}
