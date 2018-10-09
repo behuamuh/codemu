@@ -27,6 +27,9 @@ import Task26 from './secondComponents/Task26';
 import Task27 from './secondComponents/Task27';
 import Task28 from './secondComponents/Task28';
 import Task29 from './secondComponents/Task29';
+import Task30 from './secondComponents/Task30';
+import Task31 from './secondComponents/Task31';
+import Task32 from './secondComponents/Task32';
 
 export const routes = [
   {
@@ -144,5 +147,17 @@ export const routes = [
   {
     path: '/task29',
     component: Task29,
+  },
+  {
+    path: '/task30',
+    component: Task30,
+  },
+  {
+    path: '/task31',
+    component: Task31,
+  },
+  {
+    path: '/task32',
+    component: Task32,
   },
 ];
