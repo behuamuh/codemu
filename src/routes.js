@@ -19,6 +19,14 @@ import Task18 from './components/Task18';
 import Task19 from './components/Task19';
 import Task20 from './components/Task20';
 import Task21 from './secondComponents/Task21';
+import Task22 from './secondComponents/Task22';
+import Task23 from './secondComponents/Task23';
+import Task24 from './secondComponents/Task24';
+import Task25 from './secondComponents/Task25';
+import Task26 from './secondComponents/Task26';
+import Task27 from './secondComponents/Task27';
+import Task28 from './secondComponents/Task28';
+import Task29 from './secondComponents/Task29';
 
 export const routes = [
   {
@@ -104,5 +112,37 @@ export const routes = [
   {
     path: '/task21',
     component: Task21,
+  },
+  {
+    path: '/task22',
+    component: Task22,
+  },
+  {
+    path: '/task23',
+    component: Task23,
+  },
+  {
+    path: '/task24',
+    component: Task24,
+  },
+  {
+    path: '/task25',
+    component: Task25,
+  },
+  {
+    path: '/task26',
+    component: Task26,
+  },
+  {
+    path: '/task27',
+    component: Task27,
+  },
+  {
+    path: '/task28',
+    component: Task28,
+  },
+  {
+    path: '/task29',
+    component: Task29,
   },
 ];
