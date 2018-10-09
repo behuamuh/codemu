@@ -30,6 +30,14 @@ import Task29 from './secondComponents/Task29';
 import Task30 from './secondComponents/Task30';
 import Task31 from './secondComponents/Task31';
 import Task32 from './secondComponents/Task32';
+import Task33 from './thirdComponents/Task33';
+import Task34 from './thirdComponents/Task34';
+import Task35 from './thirdComponents/Task35';
+import Task36 from './thirdComponents/Task36';
+import Task37 from './thirdComponents/Task37';
+import Task38 from './thirdComponents/Task38';
+import Task39 from './thirdComponents/Task39';
+import Task40 from './thirdComponents/Task40';
 
 export const routes = [
   {
@@ -159,5 +167,37 @@ export const routes = [
   {
     path: '/task32',
     component: Task32,
+  },
+  {
+    path: '/task33',
+    component: Task33,
+  },
+  {
+    path: '/task34',
+    component: Task34,
+  },
+  {
+    path: '/task35',
+    component: Task35,
+  },
+  {
+    path: '/task36',
+    component: Task36,
+  },
+  {
+    path: '/task37',
+    component: Task37,
+  },
+  {
+    path: '/task38',
+    component: Task38,
+  },
+  {
+    path: '/task39',
+    component: Task39,
+  },
+  {
+    path: '/task40',
+    component: Task40,
   },
 ];
