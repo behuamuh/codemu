@@ -48,6 +48,9 @@ import Task47 from './thirdComponents/Task47';
 import Task48 from './thirdComponents/Task48';
 import Task49 from './thirdComponents/Task49';
 import Task50 from './thirdComponents/Task50';
+import Task51 from './fourComponents/Task51';
+import Task52 from './fourComponents/Task52';
+import Task53 from './fourComponents/Task53';
 
 export const routes = [
   {
@@ -249,5 +252,17 @@ export const routes = [
   {
     path: '/task50',
     component: Task50,
+  },
+  {
+    path: '/task51',
+    component: Task51,
+  },
+  {
+    path: '/task52',
+    component: Task52,
+  },
+  {
+    path: '/task53',
+    component: Task53,
   },
 ];
