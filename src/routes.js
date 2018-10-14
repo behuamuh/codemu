@@ -74,6 +74,7 @@ import Task73 from './sevenComponents/Task73';
 import Task74 from './sevenComponents/Task74';
 import Task75 from './sevenComponents/Task75';
 import Task76 from './sevenComponents/Task76';
+import Task77 from './sevenComponents/Task77';
 
 export const routes = [
   {
@@ -379,5 +380,9 @@ export const routes = [
   {
     path: '/task76',
     component: Task76,
+  },
+  {
+    path: '/task77',
+    component: Task77,
   },
 ];
