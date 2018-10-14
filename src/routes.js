@@ -64,6 +64,11 @@ import Task63 from './fiveComponents/Task63';
 import Task64 from './fiveComponents/Task64';
 import Task65 from './fiveComponents/Task65';
 import Task66 from './fiveComponents/Task66';
+import Task67 from './sixComponents/Task67';
+import Task68 from './sixComponents/Task68';
+import Task69 from './sixComponents/Task69';
+import Task70 from './sixComponents/Task70';
+import Task71 from './sixComponents/Task71';
 
 export const routes = [
   {
@@ -329,5 +334,25 @@ export const routes = [
   {
     path: '/task66',
     component: Task66,
+  },
+  {
+    path: '/task67',
+    component: Task67,
+  },
+  {
+    path: '/task68',
+    component: Task68,
+  },
+  {
+    path: '/task69',
+    component: Task69,
+  },
+  {
+    path: '/task70',
+    component: Task70,
+  },
+  {
+    path: '/task71',
+    component: Task71,
   },
 ];
