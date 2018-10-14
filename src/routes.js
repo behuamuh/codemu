@@ -69,6 +69,8 @@ import Task68 from './sixComponents/Task68';
 import Task69 from './sixComponents/Task69';
 import Task70 from './sixComponents/Task70';
 import Task71 from './sixComponents/Task71';
+import Task72 from './sixComponents/Task72';
+import Task73 from './sevenComponents/Task73';
 
 export const routes = [
   {
@@ -354,5 +356,13 @@ export const routes = [
   {
     path: '/task71',
     component: Task71,
+  },
+  {
+    path: '/task72',
+    component: Task72,
+  },
+  {
+    path: '/task73',
+    component: Task73,
   },
 ];
