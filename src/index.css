@@ -11,3 +11,7 @@ a{
 table, td{
   border: 1px solid gray;
 }
+
+table{
+  margin: 0 auto;
+}

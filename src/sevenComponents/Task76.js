@@ -46,7 +46,7 @@ export default class Task76 extends Component {
     const { products } = this.state;
     const newProducts = [
       ...products.slice(0, index),
-      { ...products(index), ...{ checked: !products(index).checked } },
+      { ...products[index], ...{ checked: !products[index].checked } },
       ...products.slice(index + 1),
     ];
 
